@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: var(--background-color);
+    font-family: 'Manrope - Google Fonts', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    background-color: var(--advice-card-color);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding-top: 35px;
+    margin: 20px;
+    width: 330px;
+    height:200px;
+}
+
+.card .titulo{
+    font-size: 16px;
+    color: var(--advice-dice-color);
+}
+
+.info{
+    color: var(--text-color);
+}
+
+.card .divisao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    border: 1em solid hsl(150, 100%, 66%);
+    border-radius: 50%;
+    translate: 0% 40%;
+}
+
+
